@@ -7,15 +7,19 @@
     "express": "^4.17.1",
     "normalize.css": "^8.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test",
+    "start": "npx browser-sync start --cwd --server -w --no-open",
+    "console": "node ./js/bundle.js "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SvetkaSokolova/MyWork.git"
   },
-  "author": "",
+  "author": "SvetkaSokolova",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SvetkaSokolova/MyWork/issues"
