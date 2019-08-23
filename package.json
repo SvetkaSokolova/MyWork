@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "alert-node": "^1.2.6",
     "express": "^4.17.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "prompt": "^1.0.0",
+    "prompt-sync": "^4.1.7"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7"
@@ -13,7 +16,9 @@
   "scripts": {
     "test": "test",
     "start": "npx browser-sync start --cwd --server -w --no-open",
-    "console": "node ./js/bundle.js "
+    "console": "node ./js/bundle.js ",
+    "menu:console": "node ./js/practice.js ",
+    "my:console": "node ./js/practice2.js "
   },
   "repository": {
     "type": "git",
