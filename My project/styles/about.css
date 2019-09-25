@@ -1,0 +1,28 @@
+.about_title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    width: 20%;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about_text {
+    margin: 100px;
+}
+
+.about_line {
+    width: 40%;
+    background: green;
+    height: 2px;
+}
+
+.about_title_img {
+    display: flex;
+    width: 50%;
+}

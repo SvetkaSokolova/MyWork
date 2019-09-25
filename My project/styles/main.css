@@ -1,0 +1,9 @@
+.baner {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    background-image: url(../picture/transco_tower-wallpaper-1920x1080.jpg);
+    
+}
+
+.main_title {}
