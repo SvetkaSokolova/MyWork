@@ -2,8 +2,8 @@
     height: 900px;
     display: flex;
     align-items: center;
-    background-image: url(../picture/transco_tower-wallpaper-1920x1080.jpg);
-    
+    background-image: url(../picture/banner_overlay.png); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;  
 }
-
-.main_title {}

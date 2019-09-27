@@ -1,0 +1,51 @@
+.section_services {
+    padding-top: 25px;
+}
+
+.services_title {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 30%;
+}
+
+.services_line {
+    width: 40%;
+    background: green;
+    height: 2px;
+}
+
+.img_part_1 {
+    width: 100px;
+    position: absolute;
+}
+
+.part_1 {
+    padding: 35px;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    position: relative;
+    margin-top: 15px;
+}
+
+.part_1 h4 {
+    font-size: 24px;
+    padding-left: 100px;
+}
+
+.part_1 p {
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+.services_text {
+    margin: 100px;
+}
+
+.services_text_title {
+    font-size: 25px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
