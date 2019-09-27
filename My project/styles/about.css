@@ -12,12 +12,17 @@
 
 .about_row {
     display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1024px) {
+    .about_row {
+        flex-direction: column;
+    }
 }
 
 .about_text {
-    margin: 100px;
+    flex: 1 1 auto;
 }
 
 .about_text_title {
@@ -29,8 +34,8 @@
 .btn {
     padding: 20px 40px;
     font-weight: bold;
-    background-color:green;
-    color:black;
+    background-color: green;
+    color: black;
     display: inline-block;
     text-transform: uppercase;
     border-radius: 5px;
@@ -43,8 +48,9 @@
 }
 
 .about_title_img {
-    display: flex;
-    width: 50%;
+    width: 30%;
+    flex: 2 2 auto;
+    margin-right: 1%;
 }
 
 .about_part_counter {
