@@ -1,0 +1,39 @@
+.header {
+    padding-top: 15px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.header_logo_img {
+    width: 70px;
+}
+
+.header_title {
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav_header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.element {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    display: block;
+    padding: .5rem 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.element:hover {
+    color: green;
+}

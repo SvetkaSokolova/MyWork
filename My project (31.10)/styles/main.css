@@ -1,0 +1,19 @@
+.baner {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    background-image: url(../picture/banner_overlay.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.banner_text {
+    background: -webkit-linear-gradient(5deg, #118f26a8 0%, rgb(245, 245, 245) 100%);
+    color: black;
+    padding: 2%;
+}
+
+.banner_text h2 {
+    font-size: 35px;
+    line-height: 25px;
+}

@@ -1,9 +1,0 @@
-.baner {
-    height: 900px;
-    display: flex;
-    align-items: center;
-    background-image: url(../picture/banner_overlay.png); 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: x-large;  
-}
