@@ -1,5 +1,5 @@
 .section_services {
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .services_title {
@@ -36,7 +36,7 @@
 .parts {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .parts h4 {

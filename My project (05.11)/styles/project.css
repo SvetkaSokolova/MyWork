@@ -1,5 +1,5 @@
 .project_portfolio {
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .project_title {
@@ -23,8 +23,8 @@
 
 .project_text_title {
     font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     line-height: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -44,6 +44,7 @@
     border-radius: 5px;
     text-decoration: none;
     margin-right: 10px;
+    margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -55,7 +56,9 @@
 
 .nav_tabs {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    margin-bottom: 20px;
 }
 
 .img_text {

@@ -1,5 +1,5 @@
 .footer_part {
-    margin-top: 60px;
+    margin-top: 100px;
     background: -webkit-linear-gradient(5deg, #118f26a8 0%, rgb(245, 245, 245) 100%);
 }
 
@@ -75,11 +75,38 @@
 }
 
 .for_btn_12 {
-    float: right;
+    float: left;
 }
 
 .btn_12:hover {
     background-color: rgb(47, 53, 49);
     color: black;
     text-decoration: none;
+}
+
+#button-up {
+    color: #fff;
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
+    float: right;
+}
+
+/* .form-control:focus {
+    color: #495057;
+    background-color: white;
+    outline: 0;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+} */
+
+.form-control:focus {
+    color: #495057;
+    background-color: white;
+    outline: 0;
+    border-color:green;
+    box-shadow: 0 0 0 0.2rem rgba(31, 139, 67, 0.808);; 
 }

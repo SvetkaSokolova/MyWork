@@ -1,5 +1,5 @@
 .gallery {
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .gallery_title {
@@ -20,8 +20,12 @@
     height: 2px;
 }
 
+.carousel {
+    padding-top: 50px;
+}
+
 .project_gallery {
-    padding-top: 30px;
+    padding-top: 50px;
     position: relative;
 }
 

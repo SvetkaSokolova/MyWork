@@ -1,5 +1,5 @@
 .section_about {
-    padding-top: 30px;
+    padding-top: 100px;
     position: relative;
 }
 
@@ -59,6 +59,7 @@
     color: black;
     text-decoration: none;
 }
+
 
 .about_line {
     width: 40%;
