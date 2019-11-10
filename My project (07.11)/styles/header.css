@@ -4,7 +4,6 @@
 
 .menu_fixed {
     position: fixed;
-   
     z-index: 9999 !important;
     width: 100%;
     background-color: #fff;

@@ -14,7 +14,7 @@ form.addEventListener('submit', (event) => {
 
 function addSuccessMsg() {
   let el = document.createElement('div');
-  el.innerHTML = 'Data was saved. Thank you!';
+  el.innerHTML = 'Thank you!';
   el.className = 'alert alert-success';
   form.after(el);
   removeElement(el, 5000);
