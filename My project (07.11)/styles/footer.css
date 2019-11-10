@@ -95,18 +95,10 @@
     float: right;
 }
 
-/* .form-control:focus {
-    color: #495057;
-    background-color: white;
-    outline: 0;
-    border-color: #80bdff;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
-} */
-
 .form-control:focus {
     color: #495057;
     background-color: white;
     outline: 0;
-    border-color:green;
-    box-shadow: 0 0 0 0.2rem rgba(31, 139, 67, 0.808);; 
+    border-color:rgba(31, 139, 67, 0.808);
+    box-shadow: 0 0 0 0.1rem rgba(31, 139, 67, 0.808);
 }
